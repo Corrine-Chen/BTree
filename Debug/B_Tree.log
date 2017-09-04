@@ -1,0 +1,35 @@
+﻿生成启动时间为 2017/7/4 9:49:47。
+     1>项目“G:\c语言程序\B_Tree\B_Tree\B_Tree.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\B_Tree.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BTree.cpp
+         BTree.cpp
+     1>g:\c语言程序\b_tree\b_tree\btree.h(180): warning C4018: “<”: 有符号/无符号不匹配
+                 g:\c语言程序\b_tree\b_tree\btree.h(176): 编译类 模板 成员函数“void BTree<K,M>::_InOrder(BTreeNode<K,3> *)”时
+                 with
+                 [
+                     K=int,
+                     M=3
+                 ]
+                 g:\c语言程序\b_tree\b_tree\btree.h(197): 参见对正在编译的类 模板 实例化“BTree<K,M>”的引用
+                 with
+                 [
+                     K=int,
+                     M=3
+                 ]
+     1>g:\c语言程序\b_tree\b_tree\btree.h(150): warning C4715: “BTree<int,3>::Insert”: 不是所有的控件路径都返回值
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\c语言程序\B_Tree\Debug\B_Tree.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\B_Tree.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\c语言程序\B_Tree\Debug\B_Tree.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\c语言程序\B_Tree\Debug\B_Tree.lib" /MACHINE:X86 Debug\BTree.obj
+         LINK : 没有找到 G:\c语言程序\B_Tree\Debug\B_Tree.exe 或上一个增量链接没有生成它；正在执行完全链接
+         B_Tree.vcxproj -> G:\c语言程序\B_Tree\Debug\B_Tree.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"G:\c语言程序\B_Tree\Debug\B_Tree.exe;#1" /manifest Debug\B_Tree.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\B_Tree.unsuccessfulbuild”。
+         正在对“Debug\B_Tree.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\c语言程序\B_Tree\B_Tree\B_Tree.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.70
